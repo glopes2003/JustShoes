@@ -1,39 +1,34 @@
 import Display from "./components/Display";
 import Footer from "./footer";
 
+import "./style/brand.css";
+
 function Brand() {
   return (
     <>
-      <article>
+      <article className="wallpaper">
         <img src="../src/assets/shoes.png" alt="nike-shoes"></img>
       </article>
 
-      <article>
-        <div>
+      <article className="header">
+        <span>
           <p>NIKE</p>
-        </div>
-        <div>
+        </span>
+        <span>
           <p>Ordenar por</p>
-          <select name="filter">
-            <option value="valor1">Nome: A-Z</option>
-            <option value="valor2" selected>
-              Nome: Z-A
+          <select className="filter" name="filter">
+            <option value="valor1" selected>
+              Nome: A-Z
             </option>
+            <option value="valor2">Nome: Z-A</option>
             <option value="valor3">Maior preço</option>
             <option value="valor4">Menor preço</option>
           </select>
-        </div>
+        </span>
       </article>
 
       <article>
         <Display />
-      </article>
-
-      <article>
-        <button>
-          <img src="../src/assets/arrow-down.svg" alt="load-more-shoes"></img>
-          CARREGAR MAIS
-        </button>
       </article>
 
       <Footer />
