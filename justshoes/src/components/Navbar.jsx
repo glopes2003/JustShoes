@@ -1,13 +1,12 @@
-import logo from '../src/assets/logo.svg';
-import searchIcon from '../src/assets/search-icon.svg';
-import profile from '../src/assets/profile.png';
-import favorites from '../src/assets/heart.png';
-import cart from '../src/assets/shopping bag.png';
+import logo from "../assets/logo.svg";
+import searchIcon from "../assets/search-icon.svg";
+import profile from "../assets/profile.png";
+import favorites from "../assets/heart.png";
+import cart from "../assets/shopping bag.png";
 
-import styles from './style/navbar.module.css'
+import styles from "../style/navbar.module.css";
 
 const Navbar = () => {
-
   return (
     <>
       <nav className={styles.navbar}>
