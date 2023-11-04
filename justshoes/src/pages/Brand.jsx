@@ -1,7 +1,7 @@
-import Display from "./components/Display";
-import Footer from "./footer";
+import Display from "../components/Display";
+import Footer from "../components/Footer";
 
-import "./style/brand.css";
+import "../style/brand.css";
 
 function Brand() {
   return (
