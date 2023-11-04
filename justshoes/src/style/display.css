@@ -1,5 +1,4 @@
 .display {
-  padding: 10%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 180px;
@@ -43,6 +42,7 @@
 .button {
   display: flex;
   justify-content: center;
+  margin-top: 180px;
   margin-bottom: 112px;
 }
 
@@ -56,6 +56,7 @@
   background-color: transparent;
   border-radius: 40px;
   border: 1px solid #000;
+  text-align: center; 
 }
 
 .button button img {
