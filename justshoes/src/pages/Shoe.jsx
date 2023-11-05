@@ -74,7 +74,7 @@ function Shoe() {
             <img src="../src/assets/heart.png" alt="add-to-favorite"></img>
           </button>
         </div>
-        <Footer/>
+        <Footer />
       </section>
     </>
   );
