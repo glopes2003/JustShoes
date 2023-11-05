@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import "../style/shoe.css";
 
 function Shoe() {
@@ -73,6 +74,7 @@ function Shoe() {
             <img src="../src/assets/heart.png" alt="add-to-favorite"></img>
           </button>
         </div>
+        <Footer/>
       </section>
     </>
   );

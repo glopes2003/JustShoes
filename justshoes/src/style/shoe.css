@@ -111,6 +111,7 @@
   font-size: 40px;
   font-weight: 400;
   letter-spacing: 0.8px;
+  margin-top: 154px;
   margin-bottom: 40px;
 }
 
@@ -158,5 +159,5 @@
 }
 
 .action-buttons button:nth-child(2) {
-  background:transparent;
+  background: transparent;
 }
