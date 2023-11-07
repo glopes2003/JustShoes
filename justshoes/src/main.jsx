@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import Brand from "./pages/Brand";
 import Navbar from "./components/Navbar";
-import Shoe from "./pages/shoe";
+import Shoe from "./pages/Shoe";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
