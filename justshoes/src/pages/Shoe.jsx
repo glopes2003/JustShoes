@@ -1,27 +1,100 @@
-import Footer from "../components/Footer";
-import "../style/shoe.css";
+// import Footer from "../components/Footer";
+import "../style/index.css";
+import "bootstrap";
 
 function Shoe() {
   return (
     <>
-      <section>
-        <article className="band">
-          <div>
-            <img
-              src="../src/assets/delivery-truck.png"
-              alt="delivery-truck"
-            ></img>
-            <span>
-              <p>Frete grátis para compras acima de R$300,00!</p>
-            </span>
-            <span>
-              <p>Parcele em até 10X sem juros</p>
-            </span>
+      <section className="band pt-4">
+        <div>
+          <img
+            src="../src/assets/delivery-truck.png"
+            alt="delivery-truck"
+          ></img>
+          <span className="band-span1">
+            <p>Frete grátis para compras acima de R$300,00!</p>
+          </span>
+          <span className="band-span2">
+            <p className="fw-semibold">
+              Parcele em até <b className="fs-2">10X</b> sem juros
+            </p>
+          </span>
+        </div>
+      </section>
+      <span className="d-flex justify-content-center p-5">
+        <img src="../src/assets/nike-logo.svg"></img>
+      </span>
+
+      <div>
+        <nav aria-label="breadcrumb">
+          <ol className="breadcrumb">
+            <li className="breadcrumb-item">
+              <a href="#">Home</a>
+            </li>
+            <li className="breadcrumb-item">
+              <a href="#">Nike</a>
+            </li>
+            <li className="breadcrumb-item active" aria-current="page">
+              Tênis
+            </li>
+          </ol>
+        </nav>
+      </div>
+
+      <section className="d-flex justify-content-center align-items-center">
+        <div id="carouselExampleFade" className="carousel slide carousel-fade">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img
+                src="../src/assets/nike-shoes.png"
+                className="d-block w-20"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="../src/assets/nike2.png"
+                className="d-block w-20"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="../src/assets/nike3.png"
+                className="d-block w-20"
+                alt="..."
+              />
+            </div>
           </div>
-        </article>
-        <span className="brand-logo">
-          <img src="../src/assets/nike-logo.svg" alt="nike-logo"></img>
-        </span>
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      {/* 
+        
         <span className="title">
           <h1>Home / Nike / Tênis</h1>
         </span>
@@ -75,7 +148,7 @@ function Shoe() {
           </button>
         </div>
         <Footer />
-      </section>
+      </section> */}
     </>
   );
 }
