@@ -41,63 +41,65 @@ function Shoe() {
         </nav>
       </div>
 
-      <section className="d-flex justify-content-center align-items-center">
-        <div id="carouselExampleFade" className="carousel slide carousel-fade">
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img
-                src="../src/assets/nike-shoes.png"
-                className="d-block w-20"
-                alt="..."
-              />
+      <section className="wrapper">
+        <div className="d-flex justify-content-center align-items-center shoe-pics">
+          <div
+            id="carouselExampleAutoplaying"
+            className="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  src="../src/assets/nike-shoes.png"
+                  className="d-block w-20"
+                  alt="..."
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="../src/assets/image 26.png"
+                  className="d-block w-20"
+                  alt="..."
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src="../src/assets/nike3.png"
+                  className="d-block w-20"
+                  alt="..."
+                />
+              </div>
             </div>
-            <div className="carousel-item">
-              <img
-                src="../src/assets/nike2.png"
-                className="d-block w-20"
-                alt="..."
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="../src/assets/nike3.png"
-                className="d-block w-20"
-                alt="..."
-              />
-            </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
           </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
-          </button>
         </div>
       </section>
-
       {/* 
         
-        <span className="title">
-          <h1>Home / Nike / Tênis</h1>
-        </span>
         <article className="shoe-container">
           <div className="shoe-pics">
             <img src="../src/assets/nike-shoes.png" alt="nike-shoes"></img>
