@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import "../style/index.css";
 import "bootstrap";
 
@@ -158,8 +157,6 @@ function Shoe() {
           </a>
         </button>
       </span>
-
-      <Footer />
     </>
   );
 }

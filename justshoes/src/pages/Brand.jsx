@@ -1,5 +1,4 @@
 import Display from "../components/Display";
-import Footer from "../components/Footer";
 
 import "../style/brand.css";
 
@@ -30,8 +29,6 @@ function Brand() {
       <article>
         <Display />
       </article>
-
-      <Footer />
     </>
   );
 }

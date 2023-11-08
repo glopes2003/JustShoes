@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import Brand from "./pages/Brand";
 import Navbar from "./components/Navbar";
 import Shoe from "./pages/Shoe";
+import Footer from "./components/Footer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,5 +15,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/shoe" element={<Shoe />} />
       </Routes>
     </Router>
+    <Footer />
   </React.StrictMode>
 );
