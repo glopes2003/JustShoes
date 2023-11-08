@@ -1,4 +1,4 @@
-// import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 import "../style/index.css";
 import "bootstrap";
 
@@ -145,28 +145,14 @@ function Shoe() {
             />
           </a>
         </button>
-        <button className="action-buttons">
+        <button className="action-buttons bg-transparent">
           <a>
             <img src="../src/assets/heart.png" alt="add-to-favorite" />
           </a>
         </button>
       </span>
 
-      {/* 
-        
-
-  
-
-        <div className="action-buttons">
-          <button>
-            <img src="../src/assets/bolsa-de-compras-branca.png" alt="add-to-cart"></img>
-          </button>
-          <button>
-            <img src="../src/assets/heart.png" alt="add-to-favorite"></img>
-          </button>
-        </div>
-        <Footer />
-      </section> */}
+      <Footer />
     </>
   );
 }
