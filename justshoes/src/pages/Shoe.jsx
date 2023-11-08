@@ -11,10 +11,10 @@ function Shoe() {
             src="../src/assets/delivery-truck.png"
             alt="delivery-truck"
           ></img>
-          <span className="band-span1">
+          <span className="band-span1 mt-4">
             <p>Frete grátis para compras acima de R$300,00!</p>
           </span>
-          <span className="band-span2">
+          <span className="band-span2 mt-4">
             <p className="fw-semibold">
               Parcele em até <b className="fs-2">10X</b> sem juros
             </p>
@@ -25,21 +25,28 @@ function Shoe() {
         <img src="../src/assets/nike-logo.svg"></img>
       </span>
 
-      <div>
+      <span className="d-flex text-sm-start ms-5 mb-4">
         <nav aria-label="breadcrumb">
-          <ol className="breadcrumb">
-            <li className="breadcrumb-item">
-              <a href="#">Home</a>
+          <ol className="breadcrumb fs-3 ">
+            <li className="breadcrumb-item ">
+              <a className="text-decoration-none text-black" href="#">
+                Home
+              </a>
             </li>
             <li className="breadcrumb-item">
-              <a href="#">Nike</a>
+              <a className="text-decoration-none text-black" href="#">
+                Nike
+              </a>
             </li>
-            <li className="breadcrumb-item active" aria-current="page">
+            <li
+              className="breadcrumb-item active text-black"
+              aria-current="page"
+            >
               Tênis
             </li>
           </ol>
         </nav>
-      </div>
+      </span>
 
       <section className="wrapper">
         <div className="d-flex justify-content-center align-items-center shoe-pics">
@@ -118,7 +125,7 @@ function Shoe() {
         </div>
 
         <div className="d-flex flex-column justify-content-center align-items-center mt-5 sizes">
-          <h1>Tamanho</h1>
+          <h1 className="mt-5">Tamanho</h1>
           <ul>
             <li>28</li>
             <li>29</li>
