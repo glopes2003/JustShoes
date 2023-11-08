@@ -21,7 +21,7 @@ function Shoe() {
           </span>
         </div>
       </section>
-      <span className="d-flex justify-content-center p-5">
+      <span className="d-flex justify-content-center brand-logo">
         <img src="../src/assets/nike-logo.svg"></img>
       </span>
 
@@ -98,48 +98,64 @@ function Shoe() {
           </div>
         </div>
       </section>
+
+      <section className="d-flex flex-collumn justify-content-evenly align-items-center column-gap-5">
+        <div className="info">
+          <span>
+            <h1>Tênis Air Jordan 1 Low Casual</h1>
+          </span>
+          <span>
+            <img src="../src/assets/estrela.svg"></img>
+            <img src="../src/assets/estrela.svg"></img>
+            <img src="../src/assets/estrela.svg"></img>
+            <img src="../src/assets/estrela.svg"></img>
+            <img src="../src/assets/estrela.svg"></img>
+          </span>
+          <div>
+            <p className="mt-4">R$320,99</p>
+            <p className="mt-2">ou 10X de R$99,00 sem juros</p>
+          </div>
+        </div>
+
+        <div className="d-flex flex-column justify-content-center align-items-center mt-5 sizes">
+          <h1>Tamanho</h1>
+          <ul>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>32</li>
+            <li>33</li>
+            <li className="unavailable">34</li>
+            <li>35</li>
+            <li className="unavailable">36</li>
+            <li>37</li>
+            <li className="unavailable">38</li>
+            <li className="unavailable">39</li>
+            <li>40</li>
+          </ul>
+        </div>
+      </section>
+
+      <span className="d-flex justify-content-center align-items-center column-gap-5">
+        <button className="action-buttons">
+          <a>
+            <img
+              src="../src/assets/bolsa-de-compras-branca.png"
+              alt="add-to-cart"
+            />
+          </a>
+        </button>
+        <button className="action-buttons">
+          <a>
+            <img src="../src/assets/heart.png" alt="add-to-favorite" />
+          </a>
+        </button>
+      </span>
+
       {/* 
         
-        <article className="shoe-container">
-          <div className="shoe-pics">
-            <img src="../src/assets/nike-shoes.png" alt="nike-shoes"></img>
-            <div className="arrow">
-              <img src="../src/assets/preview-arrow.svg" alt="left-arrow"></img>
-              <img src="../src/assets/next-arrow.svg" alt="next-arrow"></img>
-            </div>
-          </div>
-        </article>
 
-        <article className="info-wrapper">
-          <div className="shoe-info">
-            <h1>Tênis Air Jordan 1 Low Casual</h1>
-            <img src="../src/assets/estrela.svg"></img>
-            <img src="../src/assets/estrela.svg"></img>
-            <img src="../src/assets/estrela.svg"></img>
-            <img src="../src/assets/estrela.svg"></img>
-            <img src="../src/assets/estrela.svg"></img>
-            <p>R$320,99</p>
-            <p>ou 10X de R$99,00 sem juros</p>
-          </div>
-
-          <div className="sizes">
-            <h1>Tamanho</h1>
-            <ul>
-              <li>28</li>
-              <li>29</li>
-              <li>30</li>
-              <li>32</li>
-              <li>33</li>
-              <li>34</li>
-              <li>35</li>
-              <li>36</li>
-              <li>37</li>
-              <li>38</li>
-              <li>39</li>
-              <li>40</li>
-            </ul>
-          </div>
-        </article>
+  
 
         <div className="action-buttons">
           <button>
