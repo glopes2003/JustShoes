@@ -5,12 +5,12 @@
 
 :root {
  --color-primary: #363636;
+  --color-secundary: #ebeeef;
  --color-white: #ffffff;
  --color-red: #c54125;
  --color-gray: #808080;
  --color-text: #000000;
  --background-color: #ffffff;
-}
 
 * {
   margin: 0;
