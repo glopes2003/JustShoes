@@ -18,3 +18,47 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+.band {
+  width: 100vw;
+  height: 168px;
+  flex-shrink: 0;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.band div {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+.band-span1 p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.band-span2 p {
+  font-size: 28px;
+}
+
+.brand-logo {
+  margin-top: 150px;
+  margin-bottom: 95px;
+}
+
+.shoe-pics {
+  width: 1681px;
+  height: 1021px;
+  flex-shrink: 0;
+  background-color: var(--color-secundary);
+  border-radius: 12px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
