@@ -1,21 +1,21 @@
 import Display from "../components/Display";
 
-import "../style/brand.css";
+import "../style/index.css";
 
 function Brand() {
   return (
     <>
-      <article className="wallpaper">
-        <img src="../src/assets/shoes.png" alt="nike-shoes"></img>
-      </article>
+      <span>
+        <img className="banner mx-auto d-block" src="../src/assets/shoes.png" alt="nike-shoes"></img>
+      </span>
 
-      <article className="header">
+      <section className="d-flex justify-content-between align-items-center header border p-5">
         <span>
           <p>NIKE</p>
         </span>
-        <span>
-          <p>Ordenar por</p>
-          <select className="filter" name="filter">
+        <span className="d-flex flex-row">
+          <p className="fs-2">Ordenar por</p>
+          <select className="text-center fs-5 fw-medium rounded px-4 ms-4" name="filter">
             <option value="valor1" selected>
               Nome: A-Z
             </option>
@@ -24,11 +24,9 @@ function Brand() {
             <option value="valor4">Menor preço</option>
           </select>
         </span>
-      </article>
+      </section>
 
-      <article>
         <Display />
-      </article>
     </>
   );
 }
