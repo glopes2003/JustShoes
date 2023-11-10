@@ -9,7 +9,7 @@ function Brand() {
         <img className="banner mx-auto d-block" src="../src/assets/shoes.png" alt="nike-shoes"></img>
       </span>
 
-      <section className="d-flex justify-content-between align-items-center header border p-5">
+      <section className="d-flex justify-content-between align-items-center header p-5">
         <span>
           <p>NIKE</p>
         </span>
