@@ -19,6 +19,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+footer {
+  background-color: #363636;
+  width: 100vw;
+  height: 350px;
+}
+
 .band {
   width: 100vw;
   height: 168px;
@@ -174,4 +180,8 @@
 
 .header span:nth-child(2) p {
   font-size: 32px;
+}
+
+.logo-size {
+  font-size: 64px;
 }
