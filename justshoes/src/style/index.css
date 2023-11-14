@@ -184,7 +184,7 @@
 .banner-sale {
   background-color: var(--color-banner-sale);
   width: 100vw;
-  height: 989px;
+  height: 900px;
 }
 
 .banner-title {
@@ -198,4 +198,21 @@
   font-family: Poppins;
   font-size: 20px;
   width: 438px;
+}
+
+.buy-button {
+  font-size: 18px;
+  width: 260px;
+  height: 74px;
+}
+
+.brand-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
+}
+
+.brand-options p {
+  margin-left: 50px;
+  width: 400px;
 }
