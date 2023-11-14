@@ -3,15 +3,25 @@ import "../style/home.css";
 function Home() {
   return (
     <>
-      <section>
-        <div>
-          <h1>REAGE, CALÇA UM TÊNIS!</h1>
-          <p>Sapatos são mais que um artigo de uso, são um estilo de vida</p>
-          <button>
-            <img src="../src/assets/arrow-up.svg"></img>Compre Agora
+      <section className="d-flex justify-content-between align-items-center ps-5  banner-sale">
+        <div className="">
+          <h1 className="fw-bold banner-title">REAGE, CALÇA UM TÊNIS!</h1>
+          <p className="fw-medium my-5 banner-subtitle">
+            Sapatos são mais que um artigo de uso, são um estilo de vida!
+          </p>
+          <button className="rounded-pill p-3 w-20 fs-6 fw-medium">
+            Compre Agora
+            <img
+              className="d-inline-block position-absolute "
+              src="../src/assets/arrow-up.svg"
+            ></img>
           </button>
-          <img src="../src/assets/banner-sale.svg" alt="banner-sale"></img>
         </div>
+        <img
+          className="ms-5"
+          src="../src/assets/banner-sale.svg"
+          alt="banner-sale"
+        ></img>
       </section>
 
       <section>
