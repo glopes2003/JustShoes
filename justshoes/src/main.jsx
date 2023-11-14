@@ -7,7 +7,7 @@ import Brand from "./pages/Brand";
 import Shoe from "./pages/Shoe";
 import Home from './pages/Home';
 
-import './index.css';
+import './style/index.css';
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
