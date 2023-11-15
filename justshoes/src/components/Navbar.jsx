@@ -1,5 +1,5 @@
 import logo from "../assets/logo.svg";
-// import searchIcon from "../assets/search-icon.svg";
+
 import profile from "../assets/profile.png";
 import favorites from "../assets/heart.png";
 import cart from "../assets/shopping bag.png";
@@ -87,24 +87,7 @@ const Navbar = () => {
         </div>
       </section>
 
-      {/* 
-        <form className="d-flex w-25" role="search">
-          <input
-            className="form-control"
-            type="search"
-            placeholder="Buscar"
-            aria-label="Search"
-          />
-          <span className="d-inline-block position-absolute ">
-            <button
-              className="btn "
-              type="submit"
-            >
-              <img src={searchIcon} alt="search" />
-            </button>
-          </span>
-        </form>
-        */}
+
     </>
   );
 };
