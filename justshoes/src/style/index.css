@@ -20,6 +20,25 @@
   font-family: "Poppins", sans-serif;
 }
 
+.nav-link {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+.active {
+  color: var(--color-red);
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.cart-img img {
+  width: 30px;
+  height: 40px;
+}
+
 .band {
   width: 100vw;
   height: 168px;
