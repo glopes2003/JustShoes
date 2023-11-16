@@ -1,6 +1,15 @@
-import "../style/index.css";
+/* eslint-disable react/prop-types */
+import { useState } from "react";
 
-function Display() {
+function Shoe({ image, name, price }) {
+  const [favorite, setFavorite] = useState(false);
+  const [id, setId] = useState(false);
+
+  const handleToggleFavorite = () => {
+    setFavorite((previous) => !previous);
+    setId((previous) => !previous);
+  };
+
   return (
     <>
       <section className="d-flex justify-content-center align-items-center">
