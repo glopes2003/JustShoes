@@ -11,60 +11,28 @@ function Shoe({ image, name, price }) {
   };
 
   return (
-    <>
-      <section className="d-flex justify-content-center align-items-center">
-        <div className="display mb-5">
-          <div>
-            <div className="rounded pic">
-              <img
-                className="float-end m-1"
-                src="../src/assets/heart.png"
-                alt="favorite"
-              ></img>
-              <img src="../src/assets/1.png" alt="nike-air-force-1"></img>
-            </div>
-            <div className="details fs-5">
-              <p className="fw-medium">Tênis Nike Air Force 1 Shadow Casual</p>
-              <p className="fw-semibold"> R$ 250,00</p>
-            </div>
-          </div>
-
-          <article>
-            <div className="rounded pic">
-              <img
-                className="float-end m-1"
-                src="../src/assets/heart.png"
-                alt="favorite"
-              ></img>
-              <img
-                src="../src/assets/2.png"
-                alt="nike-air-jordan-1-low-casual"
-              ></img>
-            </div>
-
-            <div className="details fs-5">
-              <p className="fw-medium">Tênis Air Jordan 1 Low Casual </p>
-              <p className="fw-semibold">R$ 320,99</p>
-            </div>
-          </article>
-
-          <article>
-            <div className="rounded pic">
-              <img
-                className="float-end m-1"
-                src="../src/assets/heart.png"
-                alt="favorite"
-              ></img>
-              <img
-                src="../src/assets/3.png"
-                alt="nike-court-legacy-lift-casual"
-              ></img>
-            </div>
-            <div className="details fs-5">
-              <p className="fw-medium">Tênis Nike Court Legacy Lift Casual</p>
-              <p className="fw-semibold">R$ 249,99</p>
-            </div>
-          </article>
+    <div>
+      <div className="rounded pic">
+        <img
+          className="float-end m-1"
+          id={id ? "popout" : ""}
+          src={
+            favorite
+              ? "../src/assets/filled-heart.png"
+              : "../src/assets/heart.png"
+          }
+          alt="favorite"
+          onClick={handleToggleFavorite}
+        />
+        <img src={image} alt={name}></img>
+      </div>
+      <div className="details fs-5">
+        <p className="fw-medium">{name}</p>
+        <p className="fw-semibold">{price}</p>
+      </div>
+    </div>
+  );
+}
 
           <article>
             <div className="rounded pic">
