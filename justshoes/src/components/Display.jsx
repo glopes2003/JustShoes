@@ -34,67 +34,50 @@ function Shoe({ image, name, price }) {
   );
 }
 
-          <article>
-            <div className="rounded pic">
-              <img
-                className="float-end m-1"
-                src="../src/assets/heart.png"
-                alt="favorite"
-              ></img>
-              <img
-                src="../src/assets/4.png"
-                alt="nike-court-vision-low-casual"
-              ></img>
-            </div>
-            <div className="details fs-5">
-              <p className="fw-medium">Tênis Nike Court Vision Low Casual</p>
-              <p className="fw-semibold">R$ 200,00</p>
-            </div>
-          </article>
-
-          <article>
-            <div className="rounded pic">
-              <img
-                className="float-end m-1"
-                src="../src/assets/heart.png"
-                alt="favorite"
-              ></img>
-              <img
-                src="../src/assets/5.png"
-                alt="nike-air-jordan-1-mid-casual"
-              ></img>
-            </div>
-            <div className="details fs-5">
-              <p className="fw-medium">Tênis Air Jordan 1 Mid Casual</p>
-              <p className="fw-semibold">R$ 419,99</p>
-            </div>
-          </article>
-
-          <div>
-            <div className=" rounded pic">
-              <img
-                className="float-end m-1"
-                src="../src/assets/heart.png"
-                alt="favorite"
-              ></img>
-              <img
-              className="divv"
-                src="../src/assets/6.png"
-                alt="nike-air-force-1-'07-casual"
-              ></img>
-            </div>
-            <div className="details fs-5">
-              <p className="fw-medium">
-                Tênis Nike Air Force 1 &rsquo;07 Casual
-              </p>
-              <p className="fw-semibold"> R$220,00</p>
-            </div>
-          </div>
+function Display() {
+  return (
+    <>
+      <section className="d-flex justify-content-center align-items-center">
+        <div className="display mb-5">
+          <Shoe
+            image="../src/assets/shoes-display/nike/1.png"
+            name="Tênis Nike Air Force 1 Shadow Casual"
+            price="250,00"
+          />
+          <Shoe
+            image="../src/assets/shoes-display/nike/2.png"
+            name="Tênis Air Jordan 1 Low Casual"
+            price="320,99"
+          />
+          <Shoe
+            image="../src/assets/shoes-display/nike/3.png"
+            name="Tênis Nike Court Legacy Lift Casual"
+            price="R$ 249,99"
+          />
+          <Shoe
+            image="../src/assets/shoes-display/nike/4.png"
+            name="Tênis Nike Court Vision Low Casual"
+            price="R$ 200,00"
+          />
+          <Shoe
+            image="../src/assets/shoes-display/nike/5.png"
+            name="Tênis Air Jordan 1 Mid Casual"
+            price="R$ 419,99"
+          />
+          <Shoe
+            image="../src/assets/shoes-display/nike/6.png"
+            name="Tênis Nike Air Force 1 &rsquo;07 Casual"
+            price="R$220,00"
+          />
         </div>
       </section>
       <div className="d-flex justify-content-center align-items-center ">
         <button className="p-4 bg-transparent mt-5 mb-5 load fs-4 fw-semibold text-center">
-          <img className="float-end " src="../src/assets/arrow-down.svg" alt="load-more-shoes"></img>
+          <img
+            className="float-end "
+            src="../src/assets/arrow-down.svg"
+            alt="load-more-shoes"
+          ></img>
           CARREGAR MAIS
         </button>
       </div>
