@@ -1,11 +1,22 @@
 /* eslint-disable react/prop-types */
+import {useState} from 'react';
 import logo from "../assets/logo.svg";
-
 import profile from "../assets/profile.png";
 // import favorites from "../assets/heart.png";
 import cart from "../assets/shopping bag.png";
 
+import LoginForm from "../components/Modal";
+
 const Navbar = ({ cartCount }) => {
+  const [showModal, setShowModal] = useState(false);
+  const handleProfileClick = () => {
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <>
       <section className="header p-5">
@@ -62,7 +73,7 @@ const Navbar = ({ cartCount }) => {
               </ul>
 
               <span className=" d-flex flex-row justify-content-center align-items-center">
-                <a className="btn btn-white btn-icon" href="#">
+                <a className="btn btn-white btn-icon" onClick={handleProfileClick}>
                   <span className="icon">
                     <img src={profile} alt="profile" />
                   </span>
@@ -88,6 +99,7 @@ const Navbar = ({ cartCount }) => {
         </div>
       </section>
 
+      <LoginForm showModal={showModal} handleClose={handleCloseModal} />
 
     </>
   );
