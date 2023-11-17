@@ -1,11 +1,10 @@
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __commonJS = (cb, mod) => function __require() {
-  return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
-};
+import {
+  __commonJS
+} from "./chunk-5WWUZCGV.js";
 
-// node_modules/react/cjs/react.development.js
+// ../node_modules/react/cjs/react.development.js
 var require_react_development = __commonJS({
-  "node_modules/react/cjs/react.development.js"(exports, module) {
+  "../node_modules/react/cjs/react.development.js"(exports, module) {
     "use strict";
     if (true) {
       (function() {
@@ -1876,9 +1875,10 @@ var require_react_development = __commonJS({
   }
 });
 
-// node_modules/react/index.js
+// ../node_modules/react/index.js
 var require_react = __commonJS({
-  "node_modules/react/index.js"(exports, module) {
+  "../node_modules/react/index.js"(exports, module) {
+    "use strict";
     if (false) {
       module.exports = null;
     } else {
@@ -1888,7 +1888,6 @@ var require_react = __commonJS({
 });
 
 export {
-  __commonJS,
   require_react
 };
 /*! Bundled license information:
@@ -1904,4 +1903,4 @@ react/cjs/react.development.js:
    * LICENSE file in the root directory of this source tree.
    *)
 */
-//# sourceMappingURL=chunk-HQYZZ6R6.js.map
+//# sourceMappingURL=chunk-W4D5E72T.js.map
