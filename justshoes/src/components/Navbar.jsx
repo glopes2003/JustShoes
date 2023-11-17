@@ -2,7 +2,7 @@
 import logo from "../assets/logo.svg";
 
 import profile from "../assets/profile.png";
-import favorites from "../assets/heart.png";
+// import favorites from "../assets/heart.png";
 import cart from "../assets/shopping bag.png";
 
 const Navbar = ({ cartCount }) => {
@@ -67,11 +67,11 @@ const Navbar = ({ cartCount }) => {
                     <img src={profile} alt="profile" />
                   </span>
                 </a>
-                <a className="btn btn-white btn-icon" href="#">
+                {/* <a className="btn btn-white btn-icon" href="#">
                   <span className="icon">
                     <img src={favorites} alt="favorites" />
                   </span>
-                </a>
+                </a> */}
                 <a className="btn btn-white btn-icon" href="#">
                   <span className="icon cart-img">
                     <img src={cart} alt="cart" />
