@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 function Shoe({ image, name, price }) {
@@ -44,11 +45,13 @@ function Display() {
             name="Tênis Nike Air Force 1 Shadow Casual"
             price="250,00"
           />
-          <Shoe
-            image="../src/assets/shoes-display/nike/2.png"
-            name="Tênis Air Jordan 1 Low Casual"
-            price="320,99"
-          />
+          <Link to={"/shoe"} className="text-decoration-none text-black">
+            <Shoe
+              image="../src/assets/shoes-display/nike/2.png"
+              name="Tênis Air Jordan 1 Low Casual"
+              price="320,99"
+            />
+          </Link>
           <Shoe
             image="../src/assets/shoes-display/nike/3.png"
             name="Tênis Nike Court Legacy Lift Casual"
