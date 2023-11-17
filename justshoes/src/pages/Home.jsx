@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../style/home.css";
 
 function Home() {
@@ -18,7 +19,7 @@ function Home() {
           </button>
         </div>
         <img
-          className="ms-5 overflow-hidden"
+          className="ms-5 mt-5 overflow-hidden"
           src="../src/assets/banner-sale.svg"
           alt="banner-sale"
         ></img>
@@ -30,7 +31,9 @@ function Home() {
         </p>
         <img src="../src/assets/adidas.svg"></img>
         <img src="../src/assets/converse.svg"></img>
-        <img src="../src/assets/nike.svg"></img>
+        <Link to={"/brand?marca=nike"}>
+          <img src="../src/assets/nike.svg"></img>
+        </Link>
         <img src="../src/assets/puma.svg"></img>
         <img src="../src/assets/vans.svg"></img>
       </section>
