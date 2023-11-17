@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "../style/home.css";
 
 function Home() {
   return (
@@ -31,7 +30,7 @@ function Home() {
         </p>
         <img src="../src/assets/adidas.svg"></img>
         <img src="../src/assets/converse.svg"></img>
-        <Link to={"/brand?marca=nike"}>
+        <Link to={"/brand"}>
           <img src="../src/assets/nike.svg"></img>
         </Link>
         <img src="../src/assets/puma.svg"></img>
