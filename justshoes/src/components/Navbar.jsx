@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import logo from "../assets/logo.svg";
 
 import profile from "../assets/profile.png";
 import favorites from "../assets/heart.png";
 import cart from "../assets/shopping bag.png";
 
-const Navbar = () => {
+const Navbar = ({ cartCount }) => {
   return (
     <>
       <section className="header p-5">
@@ -29,7 +30,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNavDropDown">
               <ul className="navbar-nav fs-5 fw-medium mx-auto">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="nav-link active" aria-current="/" href="/">
                     OUTLET
                   </a>
                 </li>
@@ -44,7 +45,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link active" aria-current="/brand" href="/brand">
                     Nike
                   </a>
                 </li>
@@ -78,7 +79,7 @@ const Navbar = () => {
                 </a>
                 <a className="btn btn-white btn-icon" href="#">
                   <span className="icon fs-4">
-                    0
+                  {cartCount}
                   </span>
                 </a>
               </span>
