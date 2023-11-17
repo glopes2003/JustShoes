@@ -1,7 +1,7 @@
-import "../style/index.css";
+/* eslint-disable react/prop-types */
 import "bootstrap";
 
-function Shoe() {
+const Shoe = ({ handleAddToCart }) => {
   return (
     <>
       <section className="band pt-4">
@@ -143,7 +143,7 @@ function Shoe() {
       </section>
 
       <span className="d-flex justify-content-center align-items-center column-gap-5">
-        <button className="action-buttons">
+        <button className="action-buttons" onClick={handleAddToCart}>
           <a>
             <img
               src="../src/assets/bolsa-de-compras-branca.png"
@@ -151,14 +151,14 @@ function Shoe() {
             />
           </a>
         </button>
-        <button className="action-buttons bg-transparent">
+        {/* <button className="action-buttons bg-transparent">
           <a>
             <img src="../src/assets/heart.png" alt="add-to-favorite" />
           </a>
-        </button>
+        </button> */}
       </span>
     </>
   );
-}
+};
 
 export default Shoe;
