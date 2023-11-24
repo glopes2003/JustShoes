@@ -1,6 +1,6 @@
 <div align="center">
   
-# JustShoes
+# JustShoes :)
 </div>
 O projeto tem como proposta o desenvolvimento do front-end de um site de E-comerce de revenda de calçados realizado com a intenção de estudar e praticar um pouco dessa área e suas tecnologias. 
 
