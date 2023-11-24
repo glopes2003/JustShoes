@@ -52,9 +52,7 @@ Link: https://www.figma.com/proto/qC4PbgmeTLzeHiq5rbturm/JUSTSHOES?node-id=0-1&s
  - style: pasta com a estilização das páginas.
 <br>
 
-><h3>Funcionalidades:</h3>
+> Rodar o projeto:
 
-<a href="https://imgur.com/5wkjAZh"><img src="https://imgur.com/a/5wkjAZh" width="400px" height="250px" /></a>
-
-<br/>
-https://imgur.com/a/
+ npm install
+ npm run dev
