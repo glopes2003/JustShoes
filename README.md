@@ -52,7 +52,7 @@ Link: https://www.figma.com/proto/qC4PbgmeTLzeHiq5rbturm/JUSTSHOES?node-id=0-1&s
  - style: pasta com a estilização das páginas.
 <br>
 
-> Rodar o projeto:
+> Para rodar o projeto:
 
- npm install
- npm run dev
+ - npm install
+ - npm run dev
