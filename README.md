@@ -54,6 +54,7 @@ Link: https://www.figma.com/proto/qC4PbgmeTLzeHiq5rbturm/JUSTSHOES?node-id=0-1&s
 
 ><h3>Funcionalidades:</h3>
 
-<a href="https://imgur.com/7mQH17F"><img src="https://i.imgur.com/7mQH17F.gif" title="source: imgur.com" width="400px" height="250px" /></a>
+<a href="https://imgur.com/5wkjAZh"><img src="https://i.imgur.com/5wkjAZh.gif" title="source: imgur.com" width="400px" height="250px" /></a>
 
 <br/>
+https://imgur.com/a/
